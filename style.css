@@ -1,0 +1,309 @@
+@import url('https://fonts.google.com/specimen/Delius+Unicase?query=Delius+Unicase'); 
+  
+  
+         * { 
+             margin: 0; 
+             padding: 0; 
+             box-sizing: border-box; 
+            
+         } 
+  
+         .container-flex { 
+  
+             width: 100vw; 
+             height: 169vh; 
+  
+  
+         } 
+  
+         .nav { 
+  
+             display: flex; 
+             background: #6F6AF7; 
+             width: 100vw; 
+             height: 65px; 
+  
+         } 
+  
+  
+         .logo { 
+  
+             width: 150px; 
+             height: 60px; 
+             color: white; 
+             font-family: Delius Unicase; 
+             position: absolute; 
+             padding-top: 10px; 
+             padding-left: 20px; 
+             text-align: center; 
+             font-weight: bold; 
+             font-size: 30px; 
+             text-align: left; 
+  
+         } 
+  
+         .search-bar { 
+  
+             position: absolute; 
+             width: 210px; 
+             padding: 10px 10px 10px 5px; 
+             height: 127px; 
+             margin-left: 1000px; 
+  
+  
+  
+         } 
+  
+         .input-search { 
+  
+             position: relative; 
+             width: 250px; 
+             height: 40px; 
+             left: 0px; 
+             top: 0px; 
+             margin: 3px 15px 50px 0px; 
+             flex-shrink: 0; 
+             border-radius: 63px; 
+             border: 1px solid #000; 
+             background: #FFF; 
+  
+  
+         } 
+  
+         input.input-search::placeholder { 
+  
+             display: flex; 
+             flex-direction: row; 
+             position: relative; 
+             width: 314px; 
+             height: 100px; 
+             padding-left: 10px; 
+             justify-content: center; 
+             flex-shrink: 0; 
+             color: #888; 
+             font-family: Arial, Helvetica, sans-serif; 
+             font-size: 20px; 
+             font-weight: 60px; 
+             font-family: DM Sans; 
+             font-size: 24px; 
+             font-weight: 40; 
+             line-height: 32px; 
+             letter-spacing: 0em; 
+             text-align: left; 
+             padding-bottom: 50px; 
+  
+         } 
+  
+  
+         img.search-icon { 
+  
+             display: flex; 
+             position: absolute; 
+             top: 0px; 
+             left: 110px; 
+             padding: 10px 10px 10px 10px; 
+             margin: 10px 15px 100px 90px; 
+  
+         } 
+  
+         .nav-option ul { 
+  
+             position: relative; 
+             list-style-type: none; 
+             display: flex; 
+             cursor: pointer; 
+             height: 50px; 
+             width: 700px; 
+             color: #FFFFFF; 
+             font-family: DM Sans; 
+             top: 10px; 
+             left: 220px; 
+             justify-content: space-between; 
+  
+         } 
+  
+         li { 
+             font-size: 25px; 
+             font-style: normal; 
+             padding-left: 50px; 
+         } 
+  
+         .grid-container { 
+  
+             display: grid; 
+             position: relative; 
+             top: 80px; 
+             left: 50px; 
+             height: 60px; 
+             padding: 10px; 
+             /* background: lightblue;*/ 
+             /*grid-template-columns: 10px 20px 30px 40px;*/ 
+             grid-template-columns: 1fr 1fr 1fr 1fr; 
+             column-gap: 10px; 
+             row-gap: 10px; 
+  
+  
+  
+         } 
+         .media-icon { 
+  
+            width: 40px; 
+            height: 150px; 
+            position: absolute; 
+            float: right; 
+            top: 50px; 
+            margin-top: 220px; 
+            margin-left:1420px;
+ 
+ 
+        } 
+ 
+ 
+        .media-icon>img { 
+            width: 60px; 
+            height: 170px; 
+           
+        }
+  
+         .grid-item { 
+  
+             background: blue; 
+             font-family: DM Sans; 
+             width: 200px; 
+             height: 80px; 
+             padding: 10px 0px 5px 10px; 
+             font-size: 19px; 
+             color: white; 
+             text-align: left; 
+             border-radius: 6px; 
+             box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4); 
+         } 
+  
+         .left-card { 
+  
+             display: flex; 
+             flex-direction: column; 
+             width: 450px; 
+             height: 430px; 
+             row-gap: 20px; 
+             padding: 40px 10px 10px 50px; 
+             font-family: DM Sans; 
+             font-size: 35px; 
+             font-weight: 700; 
+             line-height: 63px; 
+             letter-spacing: 0.04em; 
+             text-align: left; 
+  
+         } 
+  
+         .left-card>.btn1 { 
+  
+             font-family: DM Sans; 
+             font-size: 20px; 
+             font-weight: 700; 
+             line-height: 40px; 
+             letter-spacing: 0.04em; 
+             text-align: center; 
+             width: 397px; 
+             height: 100px; 
+             top: 1340px; 
+             left: 153px; 
+             border-radius: 22px; 
+             background: rgba(188, 224, 246, 1); 
+  
+         } 
+  
+         .left-card>.btn2 { 
+  
+             font-family: DM Sans; 
+             font-size: 20px; 
+             font-weight: 700; 
+             line-height: 63px; 
+             letter-spacing: 0.04em; 
+             text-align: center; 
+             width: 397px; 
+             height: 100px; 
+             top: 1267px; 
+             left: 101px; 
+             border-radius: 21px; 
+             background: rgba(72, 62, 255, 1); 
+             border: 2px solid white; 
+             color: white; 
+  
+         } 
+  
+         .left-card>.btn3 { 
+  
+             font-family: DM Sans; 
+             font-size: 20px; 
+             font-weight: 700; 
+             line-height: 63px; 
+             letter-spacing: 0.04em; 
+             text-align: center; 
+             width: 397px; 
+             height: 100px; 
+             top: 1267px; 
+             left: 101px; 
+             border-radius: 21px; 
+             background: rgba(72, 62, 255, 1); 
+             border: 2px solid white; 
+             color: white; 
+  
+         } 
+  
+         .right-card { 
+  
+             position: absolute; 
+             left: 500px; 
+             top: 0px; 
+             margin: 30px 30px 30px 30px; 
+             width: 700px; 
+             height: 360px; 
+             border-radius: 10px; 
+             background-color: white; 
+  
+  
+         } 
+  
+         .right-card p { 
+  
+             margin-bottom: 20px; 
+             padding: 0px 0px 0px 50px; 
+  
+         } 
+  
+         h2 { 
+             padding: 30px 0px 0px 20px; 
+             font-family: Inter; 
+             color: rgba(4, 40, 90, 1); 
+  
+         } 
+  
+         .right-card p strong { 
+  
+             color: rgba(4, 40, 90, 1); 
+             font-family: Roboto; 
+         } 
+  
+         div .button { 
+             position: absolute; 
+             left: 1085px; 
+             top: 335px; 
+             width: 90px; 
+             height: 40px; 
+  
+  
+         } 
+  
+         div .button button { 
+             width: 110px; 
+             height: 40px; 
+             margin-bottom: 30px; 
+             color: white; 
+             background-color: black; 
+             font-family: Roboto; 
+             font-size: large; 
+             border-radius: 6px; 
+         } 
+  
+         
